@@ -99,3 +99,11 @@ data = {
 
 # Invoke the endpoint for prediction
 predictor.predict(data)
+
+ModelError: An error occurred (ModelError) when calling the InvokeEndpoint operation: 
+Received client error (400) from primary with message:
+{
+  "code": 400,
+  "type": "InternalServerException",
+  "message": "\u0027llava_next\u0027"
+}
